@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+.mainFont{
+  font-family: 'Righteous', cursive !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Nav Bar */
+
+.Navbar-Brand{
+  font-size: 2em !important;
+  transition: text-shadow .40s ease-in-out;
+}
+.Navbar-Brand:hover{
+  text-shadow: 3px 2px 4px rgb(24, 5, 133);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link {
+  font-size: 1.4em !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+/* Created the following classes so all components will always take up the entire screen. (no blank space below footer)*/
+
+/* Footer Height is under footer section */
+
+.nav-height {
+  min-height: 12vh;
 }
 
-.App-link {
-  color: #61dafb;
+.bannerHeight{
+  height: 14vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.createHeight{
+  min-height: 8vh;
+}
+
+
+/* Body Height */
+
+.bodyHeight{
+  min-height: 64vh;
+}
+
+.adminBodyHeight {
+  min-height: 56vh;
+}
+
+
+
+/* Footer */
+
+footer {
+  background-color: #0D6EFD;
+  height: 10vh;
+}
+
+
+/* Color Scheme */
+.secondary{
+  background-color: #2C4C7D;
+}
+.head{
+  background-color: #599AFD !important;
+}
+
+.btn-color{
+  background-color: #06367D !important;
+  color: white !important;
 }

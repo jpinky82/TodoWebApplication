@@ -1,0 +1,57 @@
+/* Filter */
+.filter{
+    transition: .2s;
+}
+
+.todoFilters .filter:hover{
+    background-color: #0A57C9;
+    
+}
+
+.todoFilters .filter{
+    background-color: #2C4C7D;
+    color:white;
+    padding: 3px 10px;
+}
+
+.todoFilters .btn{
+    font-size: 1.3em;
+}
+
+/* Table */
+
+.todoTable .checkbox {
+    width: 1em;
+    height: 1em;
+}
+.todoTable .checkbox:checked {
+    accent-color: #599AFD;
+}
+
+button#editLink,
+button#deleteLink {
+    margin: 0 2px;
+    transition: .5s;
+    box-shadow: 1px 1px 2px black;
+}
+
+button#editLink:hover{
+    background-color: #00800080;
+    box-shadow: 4px 4px 5px black;
+    
+}
+
+button#editLink:active {
+    background-color: #008000;
+    box-shadow: 2px 2px 5px black;
+}
+
+button#deleteLink:hover{
+    background-color: #ff000080;
+    box-shadow: 4px 4px 5px black;
+    
+}
+button#deleteLink:active{
+    background-color: #ff0000;
+    box-shadow: 2px 2px 5px black;
+}

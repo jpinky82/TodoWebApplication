@@ -1,0 +1,36 @@
+span img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin: 0 10px;
+    border: 2px solid #fff;
+}
+
+#header{
+    text-align: center !important;
+    font-size: 1em;
+}
+
+#dropdown-basic{
+    background: transparent;
+    border: none;
+}
+
+#menu-item:hover{
+    background-color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* span button{
+    width: 100%; 
+} */
+.githubImg {
+    max-width: 55%;
+    padding-bottom: 5%;
+}
+
+.loginBtn:hover{
+    background-color:#599AFD !important;
+    box-shadow: 1px 1px 3px black;
+}

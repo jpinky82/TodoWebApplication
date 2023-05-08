@@ -1,0 +1,26 @@
+.aboutContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutInfo {
+    align-items: center;
+}
+
+.profileImage img{
+    border-radius: 20px;
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    max-height: 57vh;
+}
+.aboutText {
+    float: right;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 7px;
+    font-size: 1.4em; 
+}
+
+
