@@ -23,10 +23,10 @@ function Logout() {
         <Dropdown.Menu align="end">
             <Dropdown.Header id='header'>Hello {!currentUser.displayName ? currentUser.email : currentUser.displayName.split(' ')[0]}!</Dropdown.Header>
             <Dropdown.Divider />
-            <Dropdown.Item id='menu-item' href="/Profile">Profile</Dropdown.Item>
+            <Dropdown.Item id='menu-item' className='profItem' href="/Profile">Profile</Dropdown.Item>
             <Dropdown.Divider />
             <Dropdown.Item id='menu-item'>
-              <button onClick={() => handleAuth()} className="btn btn-primary">
+              <button onClick={() => handleAuth()} id='menuButton' className="btn btn-primary">
                 Logout
               </button>
             </Dropdown.Item>

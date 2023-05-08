@@ -22,7 +22,7 @@ export default function About() {
                 T-SQL database via an ASP.NET Core 6 Web API. I have implemented several npm packages for advanced 
                 functionality which includes: routing via React Router Dom, API request handling through Axios, 
                 authorization via Google Firebase, and form handling and schema validation using a combination 
-                of Formik and Yup. The full source code is available on GitHub.
+                of Formik and Yup. The full source code is available on <a href="https://github.com/jpinky82/TodoWebApplication" target='_blank' rel='noreferrer'>GitHub</a>.
               </p>
             </Col>
           </Row>

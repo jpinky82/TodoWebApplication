@@ -18,8 +18,11 @@ span img {
 
 #menu-item:hover{
     background-color: white;
-    font-weight: bold;
     text-decoration: underline;
+}
+
+#menuButton {
+    width: 100% !important;
 }
 
 /* span button{
